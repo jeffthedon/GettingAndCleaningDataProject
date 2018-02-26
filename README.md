@@ -3,7 +3,7 @@
 
 Assignment Submission Files:
   - run_analysis.R
-  - README.md
+  - [README.md](https://github.com/jeffthedon/GettingAndCleaningDataProject/blob/master/README.md)
   - CookBook.md
   
 ## Instructions for: "run_analysis.R"
