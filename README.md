@@ -2,7 +2,7 @@
 ## Coursera Course:  Getting and Cleaning Data
 
 Assignment Submission Files:
-  - run_analysis.R
+  - [run_analysis.R](https://github.com/jeffthedon/GettingAndCleaningDataProject/blob/master/run_analysis.R)
   - [README.md](https://github.com/jeffthedon/GettingAndCleaningDataProject/blob/master/README.md)
   - CookBook.md
   
