@@ -5,7 +5,7 @@ Assignment Submission Files:
   - [run_analysis.R](https://github.com/jeffthedon/GettingAndCleaningDataProject/blob/master/run_analysis.R)
   - [README.md](https://github.com/jeffthedon/GettingAndCleaningDataProject/blob/master/README.md)
   - [CookBook.md](https://github.com/jeffthedon/GettingAndCleaningDataProject/blob/master/CodeBook.md)
-  
+  - [tidy_data.txt](https://github.com/jeffthedon/GettingAndCleaningDataProject/blob/master/tidy_data.txt)
 ## Instructions for: "run_analysis.R"
 
 1.  DOWNLOAD the data set .zip file from the URL listed below:
