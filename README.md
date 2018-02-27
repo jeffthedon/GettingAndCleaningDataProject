@@ -31,7 +31,7 @@ Assignment Submission Files:
 5.  From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and         each subject.
     
 There were a number of functions written so as to do this and this 'follow-along script' below hopes to walk you through the process:
-### BEGINNING:
+### BEGINNING of Run_Analysis.R:
 run_analysis <- function() {
         
         setwd("C:/Users/geo/Desktop/Jeff/Coursera/Getting_and_Cleaning_Data/week4/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset")
@@ -88,7 +88,7 @@ run_analysis <- function() {
         write.csv(mean_ind_tidy_data, file = "tidy_data.txt", row.names = FALSE)        #### This writes the results into the file that was made earlier, "tidy_data.txt", without the row names.
 }
 
-### END
+### END of Run_Analysis.R
 
 ## Explanation of [Code Book](https://github.com/jeffthedon/GettingAndCleaningDataProject/blob/master/CodeBook.md)
 
