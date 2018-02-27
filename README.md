@@ -18,7 +18,7 @@ Assignment Submission Files:
 
 4.  Load the R script in RStudio using: > source("run_analysis.R")
 
-5.  Run the R script in RStudio using:  > run_alaysis()
+5.  Run the R script in RStudio using:  > run_analysis()
       After the execution of the function has finished, you will see a spreadsheet-like Data Viewer that reveals the results with the newest outputs available.
       
 ## Explanation of [run_analysis.R](https://github.com/jeffthedon/GettingAndCleaningDataProject/blob/master/run_analysis.R)
