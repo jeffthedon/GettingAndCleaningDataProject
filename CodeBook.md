@@ -11,7 +11,7 @@
   4. ****Appropriately labels the data set with descriptive variable names. 
   5. *****From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
   
-  The transformation from the Raw Data to the Tidy Data can be seen by following the List of Operations shown below as well as the accompanying notes and explanations offered in the [Readme.md file]() whilst utilizing RStudio:
+  The transformation from the Raw Data to the Tidy Data can be seen by following the List of Operations shown below as well as the accompanying notes and explanations offered in the [Readme.md](https://github.com/jeffthedon/GettingAndCleaningDataProject/blob/master/README.md) whilst utilizing RStudio:)
   
 ## List of Operations
   1. Download the Raw Data Zip File. 
