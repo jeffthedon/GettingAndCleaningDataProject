@@ -9,6 +9,7 @@ Assignment Submission Files:
 ## Instructions for: "run_analysis.R"
 
 1.  DOWNLOAD the data set .zip file from the URL listed below:
+
       [URL](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 2.  Unzip the file into YOUR DIRECTORY whereas a folder named, "UCI HAR Dataset" is listed inside of YOUR DIRECTORY.
