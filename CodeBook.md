@@ -1,10 +1,10 @@
-# Code Book
+(# Code Book
   This code book includes information about the source data collected from this [Data Set](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip), the transformations performed and some of the syntax needed after collecting the data to execute a tidy dataset through the use of [Rstudio](https://www.rstudio.com/products/rstudio/download/), as well as some information about the variables of the resulting tidy data set.
   
 # Study Design
   The Source Data for this project was collected from the [HCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).  It was used to complete a course from [Coursera](https://www.coursera.org/specializations/jhu-data-science) entitled "Getting and Cleaning Data" which was instructed by Professor Jeffrey Leek, PhD with some collaberation from Professor Robert Peng, PhD.
   
-  The assignment utilized the aforementioned dataset whilst working with the data to compile a truly compiled, easy to read, and structured [tidy dataset] which represented the source data.  The assignment had 5 listed criteria that needed to be achieved:
+  The assignment utilized the aforementioned dataset whilst working with the data to compile a truly compiled, easy to read, and structured [tidy dataset](https://github.com/jeffthedon/GettingAndCleaningDataProject/blob/master/tidy_data.txt) which represented the source data.  The assignment had 5 listed criteria that needed to be achieved:
   1. *Merges the training and the test sets to create one data set.
   2. **Extracts only the measurements on the mean and standard deviation for each measurement. 
   3. ***Uses descriptive activity names to name the activities in the data set
@@ -45,7 +45,7 @@
   ### PLEASE refer to [run_analysis.R]() for detailed implementation code that shows the aformentioned steps.
 
 
-# OUTPUT Data Details of [tidy_data.txt]()
+# OUTPUT Data Details of [tidy_data.txt](https://github.com/jeffthedon/GettingAndCleaningDataProject/blob/master/tidy_data.txt)
 subjectId: Numbered Variables, 1 to 30; each representing a single participant in the study.
 activity: the activity that the participant was doing at the time of the measurement
 ## List of Activities:
