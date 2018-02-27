@@ -4,18 +4,18 @@
 Assignment Submission Files:
   - [run_analysis.R](https://github.com/jeffthedon/GettingAndCleaningDataProject/blob/master/run_analysis.R)
   - [README.md](https://github.com/jeffthedon/GettingAndCleaningDataProject/blob/master/README.md)
-  - CookBook.md
+  - [CookBook.md](https://github.com/jeffthedon/GettingAndCleaningDataProject/blob/master/CodeBook.md)
   
 ## Instructions for: "run_analysis.R"
 
 1.  DOWNLOAD the data set .zip file from the URL listed below:
-      https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+      [URL](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 2.  Unzip the file into YOUR DIRECTORY whereas a folder named, "UCI HAR Dataset" is listed inside of YOUR DIRECTORY.
 
 3.  Load RStudio and set your working directory, "setwd('YOUR DIRECTORY/UCI HAR Dataset').  **It is imperative that the Working Directory ends with "UCI HAR Dataset" folder as the last in the character string for the Script to work.
 
-4.  Load the R script in RStudio using: > source("run_analysis.txt")
+4.  Load the R script in RStudio using: > source("run_analysis.R")
 
 5.  Run the R script in RStudio using:  > run_alaysis()
       After the execution of the function has finished, you will see a spreadsheet-like Data Viewer that reveals the results with the newest outputs available.
@@ -30,7 +30,7 @@ Assignment Submission Files:
 5.  From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and         each subject.
     
 There were a number of functions written so as to do this and this 'follow-along script' below hopes to walk you through the process:
-### Beginning:
+### BEGINNING:
 run_analysis <- function() {
         
         setwd("C:/Users/geo/Desktop/Jeff/Coursera/Getting_and_Cleaning_Data/week4/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset")
@@ -86,3 +86,4 @@ run_analysis <- function() {
         write.csv(mean_ind_tidy_data, file = "tidy_data.txt", row.names = FALSE)        #### This writes the results into the file that was made earlier, "tidy_data.txt", without the row names.
 }
 
+### END
